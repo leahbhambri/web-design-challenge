@@ -1,53 +1,61 @@
 /* Styling for HTML elements */
-body {
-    padding: 0;
-    margin: 0;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background: #c9c8c4;
+html {
+    position: relative;
+  }
+  
+  body {
+    font-family: Arial;
+    background-color: #e5e2e2;
+  }
+  
+
+  .navbar-brand {
+    background-color: #4aaaa5,
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+  
+  .description-header {
+    margin-bottom: 33px;
+    font-family: Arial;
+    font-size: 32px;
+    font-weight: bold;
+    color: #4aaaa5;
+  }
+  
+  .col-md-6 {
+    padding: 30px;
+    margin-top: 32px;
+    background-color: #fff;
+  }
+    
+  #description-image {
+    float: left;
 
   }
-  .nav{
-      color :#333;
-      background: #faf9f7
-  }
 
-  .container {
-    padding: 0;
-    margin: 0;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background: #faf9f7;
-
+  .imageNav-header {
+    margin-bottom: 15px;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    color: #4aaaa5;
   }
-  h1 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: rgb(58, 197, 179);
+  
+  
+  .comparison-header {
+    margin-bottom: 10px;
+    font-family: Arial;
+    font-size: 32px;
+    font-weight: bold;
+    color: #4aaaa5;
     text-align: center;
   }
-
-  h2 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 3s8px;
-    background: rgb(58, 197, 179);
-    color: white;
-    text-align: left;
+  
+  .dataframe {
+    margin-bottom: 15px;
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
   }
-
-  #image {
-    width: 250px;
-    height: 200px;
-    margin-right: 25px;
-    padding: 20px;
-    float: left}
-    
-    #blurb {
-        float: left;
-        width: 150%}
